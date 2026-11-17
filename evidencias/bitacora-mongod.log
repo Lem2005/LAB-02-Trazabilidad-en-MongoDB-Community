@@ -1,0 +1,663 @@
+{"t":{"$date":"2026-11-16T19:19:57.398-07:00"},"s":"I",  "c":"CONTROL",  "id":20698,   "ctx":"thread1","msg":"***** SERVER RESTARTED *****"}
+
+{"t":{"$date":"2026-11-16T19:19:58.826-07:00"},"s":"I",  "c":"CONTROL",  "id":23285,   "ctx":"thread1","msg":"Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+
+{"t":{"$date":"2026-11-16T19:19:58.829-07:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"thread1","msg":"Multi threading initialized"}
+
+{"t":{"$date":"2026-11-16T19:19:58.834-07:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"thread1","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
+
+{"t":{"$date":"2026-11-16T19:19:58.846-07:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"thread1","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":25},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":25},"outgoing":{"minWireVersion":6,"maxWireVersion":25},"isInternalClient":true}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.860-07:00"},"s":"I",  "c":"CONTROL",  "id":23316,   "ctx":"thread1","msg":"Trying to start Windows service","attr":{"serviceName":"MongoDB"}}
+
+{"t":{"$date":"2026-11-16T19:19:58.862-07:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":11396,"port":27017,"dbPath":"C:/Program Files/MongoDB/Server/8.0/data","architecture":"64-bit","host":"DESKTOP-UTO6EOA"}}
+
+{"t":{"$date":"2026-11-16T19:19:58.862-07:00"},"s":"I",  "c":"CONTROL",  "id":23398,   "ctx":"initandlisten","msg":"Target operating system minimum version","attr":{"targetMinOS":"Windows 7/Windows Server 2008 R2"}}
+
+{"t":{"$date":"2026-11-16T19:19:58.862-07:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.0.6","gitVersion":"80f21521ad4a3dfd5613f5d649d7058c6d46277f","modules":[],"allocator":"tcmalloc-gperf","environment":{"distmod":"windows","distarch":"x86_64","target_arch":"x86_64"}}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.862-07:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Microsoft Windows 10","version":"10.0 (build 26300)"}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.862-07:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"config":"C:\\Program Files\\MongoDB\\Server\\8.0\\bin\\mongod.cfg","net":{"bindIp":"127.0.0.1","port":27017},"security":{"authorization":"enabled"},"service":true,"storage":{"dbPath":"C:\\Program Files\\MongoDB\\Server\\8.0\\data"},"systemLog":{"destination":"file","logAppend":true,"path":"C:\\Program Files\\MongoDB\\Server\\8.0\\log\\mongod.log"}}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.872-07:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"C:/Program Files/MongoDB/Server/8.0/data","storageEngine":"wiredTiger"}}
+
+{"t":{"$date":"2026-11-16T19:19:58.874-07:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=6602M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,backup:0,checkpoint:0,compact:0,evict:0,history_store:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
+
+{"t":{"$date":"2026-11-16T19:19:58.934-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881998,"ts_usec":934219,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 203 through 204"}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.964-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881998,"ts_usec":964215,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 204 through 204"}}}
+
+{"t":{"$date":"2026-11-16T19:19:58.997-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881998,"ts_usec":997216,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Main recovery loop: starting at 203/543488 to 204/256"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.055-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":54740,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 203 through 204"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.087-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":87670,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 204 through 204"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.114-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":113772,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery log replay has successfully finished and ran for 180 milliseconds"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.114-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":113772,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.114-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":113772,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.118-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":117708,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery rollback to stable has successfully finished and ran for 2 milliseconds"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.119-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":119193,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 1, snapshot max: 1 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.125-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":125197,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery checkpoint has successfully finished and ran for 7 milliseconds"}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.126-07:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794881999,"ts_usec":126198,"thread":"11396:140715662804512","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","category_id":34,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"recovery was completed successfully and took 192ms, including 180ms for the log replay, 2ms for the rollback to stable, and 7ms for the checkpoint."}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.131-07:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":257}}
+
+{"t":{"$date":"2026-11-16T19:19:59.131-07:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.143-07:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":6}}
+
+{"t":{"$date":"2026-11-16T19:19:59.154-07:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
+
+{"t":{"$date":"2026-11-16T19:19:59.161-07:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":6}}
+
+{"t":{"$date":"2026-11-16T19:19:59.209-07:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":25},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":25},"outgoing":{"minWireVersion":6,"maxWireVersion":25},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":25},"incomingInternalClient":{"minWireVersion":25,"maxWireVersion":25},"outgoing":{"minWireVersion":25,"maxWireVersion":25},"isInternalClient":true}}}
+
+{"t":{"$date":"2026-11-16T19:19:59.210-07:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.0","context":"startup"}}
+
+{"t":{"$date":"2026-11-16T19:19:59.211-07:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+
+{"t":{"$date":"2026-11-16T19:19:59.214-07:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+
+{"t":{"$date":"2026-11-16T19:19:59.214-07:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+
+{"t":{"$date":"2026-11-16T19:20:00.471-07:00"},"s":"W",  "c":"FTDC",     "id":23718,   "ctx":"initandlisten","msg":"Failed to initialize Performance Counters for FTDC","attr":{"error":{"code":179,"codeName":"WindowsPdhError","errmsg":"PdhAddEnglishCounterW failed with 'El objeto especificado no se encontró en el equipo.'"}}}
+
+{"t":{"$date":"2026-11-16T19:20:00.471-07:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"C:/Program Files/MongoDB/Server/8.0/data/diagnostic.data"}}
+
+{"t":{"$date":"2026-11-16T19:20:00.506-07:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+
+{"t":{"$date":"2026-11-16T19:20:00.506-07:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+
+{"t":{"$date":"2026-11-16T19:20:00.506-07:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
+
+{"t":{"$date":"2026-11-16T19:20:00.508-07:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"127.0.0.1:27017"}}
+
+{"t":{"$date":"2026-11-16T19:20:00.508-07:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+
+{"t":{"$date":"2026-11-16T19:20:00.508-07:00"},"s":"I",  "c":"CONTROL",  "id":20555,   "ctx":"initandlisten","msg":"Service running"}
+
+{"t":{"$date":"2026-11-16T19:20:00.508-07:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"Set up periodic runner":"0 ms","Set up online certificate status protocol manager":"0 ms","Transport layer setup":"0 ms","Run initial syncer crash recovery":"0 ms","Create storage engine lock file in the data directory":"0 ms","Get metadata describing storage engine":"0 ms","Validate options in metadata against current startup options":"0 ms","Create storage engine":"302 ms","Write current PID to file":"0 ms","Initialize FCV before rebuilding indexes":"30 ms","Drop abandoned idents and get back indexes that need to be rebuilt or builds that need to be restarted":"0 ms","Rebuild indexes for collections":"0 ms","Load cluster parameters from disk for a standalone":"0 ms","Build user and roles graph":"0 ms","Set up the background thread pool responsible for waiting for opTimes to be majority committed":"1 ms","Start up the replication coordinator":"1 ms","Ensure the change stream collections on startup contain consistent data":"0 ms","Write startup options to the audit log":"0 ms","Start transport layer":"0 ms","_initAndListen total elapsed time":"1646 ms"}}}}
+
+{"t":{"$date":"2026-11-16T19:20:01.033-07:00"},"s":"W",  "c":"CONTROL",  "id":636300,  "ctx":"ftdc","msg":"Use of deprecated server parameter name","attr":{"deprecatedName":"internalQueryCacheSize","canonicalName":"internalQueryCacheMaxEntriesPerCollection"}}
+
+{"t":{"$date":"2026-11-16T19:20:01.033-07:00"},"s":"W",  "c":"CONTROL",  "id":636300,  "ctx":"ftdc","msg":"Use of deprecated server parameter name","attr":{"deprecatedName":"oplogSamplingLogIntervalSeconds","canonicalName":"collectionSamplingLogIntervalSeconds"}}
+
+{"t":{"$date":"2026-11-16T19:20:01.033-07:00"},"s":"W",  "c":"NETWORK",  "id":23803,   "ctx":"ftdc","msg":"Use of deprecated server parameter 'sslMode', please use 'tlsMode' instead."}
+
+{"t":{"$date":"2026-11-16T19:20:01.033-07:00"},"s":"W",  "c":"CONTROL",  "id":636300,  "ctx":"ftdc","msg":"Use of deprecated server parameter name","attr":{"deprecatedName":"wiredTigerConcurrentReadTransactions","canonicalName":"storageEngineConcurrentReadTransactions"}}
+
+{"t":{"$date":"2026-11-16T19:20:01.033-07:00"},"s":"W",  "c":"CONTROL",  "id":636300,  "ctx":"ftdc","msg":"Use of deprecated server parameter name","attr":{"deprecatedName":"wiredTigerConcurrentWriteTransactions","canonicalName":"storageEngineConcurrentWriteTransactions"}}
+
+{"t":{"$date":"2026-11-16T19:20:59.181-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882059,"ts_usec":181675,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 4, snapshot max: 4 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:21:59.191-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882119,"ts_usec":191750,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 5, snapshot max: 5 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.318-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56315","uuid":{"uuid":{"$uuid":"86e0736f-d420-497f-9a9e-990fee3f2d50"}},"connectionId":1,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:22:38.322-07:00"},"s":"I",  "c":"ACCESS",   "id":20248,   "ctx":"conn1","msg":"note: no users configured in admin.system.users, allowing localhost access"}
+
+{"t":{"$date":"2026-11-16T19:22:38.324-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn1","msg":"client metadata","attr":{"remote":"127.0.0.1:56315","client":"conn1","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.380-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56317","uuid":{"uuid":{"$uuid":"8d03dae8-db7b-4421-8407-b26eacc557db"}},"connectionId":2,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:22:38.381-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn2","msg":"client metadata","attr":{"remote":"127.0.0.1:56317","client":"conn2","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.391-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn2","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":9}}
+
+{"t":{"$date":"2026-11-16T19:22:38.391-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56318","uuid":{"uuid":{"$uuid":"b707d0e2-1baf-48e7-87e1-e7e64ab9ff12"}},"connectionId":3,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:22:38.392-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56319","uuid":{"uuid":{"$uuid":"fbf81311-a974-4604-99b9-4c379d5a78ad"}},"connectionId":4,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:22:38.393-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn3","msg":"client metadata","attr":{"remote":"127.0.0.1:56318","client":"conn3","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.394-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn4","msg":"client metadata","attr":{"remote":"127.0.0.1:56319","client":"conn4","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.395-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56320","uuid":{"uuid":{"$uuid":"fa3dd95a-36ce-4cf6-b8b1-8f21f59012a1"}},"connectionId":5,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:22:38.395-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn5","msg":"client metadata","attr":{"remote":"127.0.0.1:56320","client":"conn5","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.424-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn4","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: 1, featureCompatibilityVersion: 1, lsid: { id: UUID(\"c859eddb-df88-410c-873b-74d2b215291f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.424-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"a55292df-8f5d-4fac-9577-e92e3144f9f3\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.424-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn5","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"466eea86-9759-41fc-9048-0b4dba22394f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:22:38.434-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn5","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":38}}
+
+{"t":{"$date":"2026-11-16T19:22:38.524-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn5","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getLog: \"startupWarnings\", lsid: { id: UUID(\"466eea86-9759-41fc-9048-0b4dba22394f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:22:48.884-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:56324","uuid":{"uuid":{"$uuid":"6f8697c4-76e5-494a-a9c8-51f3d095c0e8"}},"connectionId":6,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:22:48.884-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn6","msg":"client metadata","attr":{"remote":"127.0.0.1:56324","client":"conn6","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:22:59.212-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882179,"ts_usec":212523,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 6, snapshot max: 6 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:23:46.106-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn5","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { listCollections: 1, filter: {}, cursor: {}, nameOnly: true, authorizedCollections: false, lsid: { id: UUID(\"466eea86-9759-41fc-9048-0b4dba22394f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:23:52.145-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on comercial to execute command { listCollections: 1, filter: {}, cursor: {}, nameOnly: true, authorizedCollections: false, lsid: { id: UUID(\"a55292df-8f5d-4fac-9577-e92e3144f9f3\") }, $db: \"comercial\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:23:56.383-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on comercial to execute command { insert: \"clientes\", documents: 5, ordered: true, lsid: { id: UUID(\"a55292df-8f5d-4fac-9577-e92e3144f9f3\") }, $db: \"comercial\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:23:59.227-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882239,"ts_usec":227672,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 7, snapshot max: 7 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:24:10.154-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn2","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on comercial to execute command { aggregate: \"clientes\", pipeline: [ { $match: {} }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"a55292df-8f5d-4fac-9577-e92e3144f9f3\") }, $db: \"comercial\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:24:40.066-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn5","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { listCollections: 1, filter: {}, cursor: {}, nameOnly: true, authorizedCollections: false, lsid: { id: UUID(\"466eea86-9759-41fc-9048-0b4dba22394f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:24:52.866-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn5","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"clientes\", pipeline: [ { $match: {} }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"466eea86-9759-41fc-9048-0b4dba22394f\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:24:59.242-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882299,"ts_usec":242644,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 8, snapshot max: 8 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:25:30.762-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn5","msg":"Connection ended","attr":{"remote":"127.0.0.1:56320","uuid":{"uuid":{"$uuid":"fa3dd95a-36ce-4cf6-b8b1-8f21f59012a1"}},"connectionId":5,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:25:30.763-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn3","msg":"Connection ended","attr":{"remote":"127.0.0.1:56318","uuid":{"uuid":{"$uuid":"b707d0e2-1baf-48e7-87e1-e7e64ab9ff12"}},"connectionId":3,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:25:30.763-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn4","msg":"Connection ended","attr":{"remote":"127.0.0.1:56319","uuid":{"uuid":{"$uuid":"fbf81311-a974-4604-99b9-4c379d5a78ad"}},"connectionId":4,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:25:30.763-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn2","msg":"Connection ended","attr":{"remote":"127.0.0.1:56317","uuid":{"uuid":{"$uuid":"8d03dae8-db7b-4421-8407-b26eacc557db"}},"connectionId":2,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:25:30.763-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn6","msg":"Connection ended","attr":{"remote":"127.0.0.1:56324","uuid":{"uuid":{"$uuid":"6f8697c4-76e5-494a-a9c8-51f3d095c0e8"}},"connectionId":6,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:25:30.891-07:00"},"s":"W",  "c":"NETWORK",  "id":4615610, "ctx":"conn1","msg":"Failed to check socket connectivity","attr":{"error":{"code":6,"codeName":"HostUnreachable","errmsg":"peekASIOStream :: caused by :: Connection closed by peer"}}}
+
+{"t":{"$date":"2026-11-16T19:25:30.891-07:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn1","msg":"Interrupted operation as its client disconnected","attr":{"opId":15378}}
+
+{"t":{"$date":"2026-11-16T19:25:30.908-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn1","msg":"Connection ended","attr":{"remote":"127.0.0.1:56315","uuid":{"uuid":{"$uuid":"86e0736f-d420-497f-9a9e-990fee3f2d50"}},"connectionId":1,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-16T19:25:34.722-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64573","uuid":{"uuid":{"$uuid":"6d8d136d-370a-4a6b-aa9b-2819627be06f"}},"connectionId":7,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:25:34.726-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn7","msg":"client metadata","attr":{"remote":"127.0.0.1:64573","client":"conn7","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:34.730-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64574","uuid":{"uuid":{"$uuid":"c1ddd5b1-7c1f-4a43-8b42-8fd65420f70e"}},"connectionId":8,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:25:34.732-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn8","msg":"client metadata","attr":{"remote":"127.0.0.1:64574","client":"conn8","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:34.735-07:00"},"s":"I",  "c":"ACCESS",   "id":20251,   "ctx":"conn8","msg":"Supported SASL mechanisms requested for unknown user","attr":{"user":{"user":"admin","db":"admin"}}}
+
+{"t":{"$date":"2026-11-16T19:25:34.735-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn8","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:25:34.736-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn8","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:64574","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","error":"UserNotFound: Could not find user \"admin\" for db \"admin\"","result":11,"metrics":{"conversation_duration":{"micros":1493,"summary":{"0":{"step":1,"step_total":2,"duration_micros":113}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:25:34.738-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn8","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:25:34.738-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn8","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:64574","isSpeculative":false,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","error":"UserNotFound: Could not find user \"admin\" for db \"admin\"","result":11,"metrics":{"conversation_duration":{"micros":185,"summary":{"0":{"step":1,"step_total":2,"duration_micros":169}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:25:34.739-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn8","msg":"Connection ended","attr":{"remote":"127.0.0.1:64574","uuid":{"uuid":{"$uuid":"c1ddd5b1-7c1f-4a43-8b42-8fd65420f70e"}},"connectionId":8,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:25:34.740-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn7","msg":"Connection ended","attr":{"remote":"127.0.0.1:64573","uuid":{"uuid":{"$uuid":"6d8d136d-370a-4a6b-aa9b-2819627be06f"}},"connectionId":7,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-16T19:25:59.259-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882359,"ts_usec":259244,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 9, snapshot max: 9 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.817-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53907","uuid":{"uuid":{"$uuid":"2310e4e8-1da1-4f3b-8fad-ba62f6ea9088"}},"connectionId":9,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:25:59.822-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn9","msg":"client metadata","attr":{"remote":"127.0.0.1:53907","client":"conn9","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.826-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53908","uuid":{"uuid":{"$uuid":"f73b73c0-3520-499d-8381-df181d93c671"}},"connectionId":10,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:25:59.827-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn10","msg":"client metadata","attr":{"remote":"127.0.0.1:53908","client":"conn10","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.836-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn10","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":8}}
+
+{"t":{"$date":"2026-11-16T19:25:59.836-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53909","uuid":{"uuid":{"$uuid":"6e6dd67d-57bb-44fd-a7c7-2c32a5d14c05"}},"connectionId":11,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:25:59.837-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53910","uuid":{"uuid":{"$uuid":"7b7d08a4-e4bb-495d-8914-977b0064a11c"}},"connectionId":12,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:25:59.838-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn10","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"61a54128-7b3e-4f3e-9829-f9b2e1bb3056\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.839-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn11","msg":"client metadata","attr":{"remote":"127.0.0.1:53909","client":"conn11","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.839-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn12","msg":"client metadata","attr":{"remote":"127.0.0.1:53910","client":"conn12","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.840-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn10","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"1e621015-42b5-447d-ab58-77ffa84106c0\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.841-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn12","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: 1, featureCompatibilityVersion: 1, lsid: { id: UUID(\"1e621015-42b5-447d-ab58-77ffa84106c0\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:25:59.846-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn12","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":6}}
+
+{"t":{"$date":"2026-11-16T19:25:59.919-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn12","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getLog: \"startupWarnings\", lsid: { id: UUID(\"1e621015-42b5-447d-ab58-77ffa84106c0\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:26:10.343-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:54784","uuid":{"uuid":{"$uuid":"ae11a56d-b9b6-460a-9bc5-c4002691ddbc"}},"connectionId":13,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:26:10.343-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn13","msg":"client metadata","attr":{"remote":"127.0.0.1:54784","client":"conn13","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:26:15.348-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn11","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":15428}}
+
+{"t":{"$date":"2026-11-16T19:26:15.350-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn12","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on comercial to execute command { listCollections: 1, filter: {}, cursor: {}, nameOnly: true, authorizedCollections: false, lsid: { id: UUID(\"1e621015-42b5-447d-ab58-77ffa84106c0\") }, $db: \"comercial\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:26:19.163-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn12","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on comercial to execute command { aggregate: \"clientes\", pipeline: [ { $match: {} }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"1e621015-42b5-447d-ab58-77ffa84106c0\") }, $db: \"comercial\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:26:54.302-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn11","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { listCollections: 1, filter: {}, cursor: {}, nameOnly: true, authorizedCollections: false, lsid: { id: UUID(\"61a54128-7b3e-4f3e-9829-f9b2e1bb3056\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:26:59.278-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882419,"ts_usec":278602,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 10, snapshot max: 10 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:27:33.999-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:57713","uuid":{"uuid":{"$uuid":"d5ef849c-ee74-47d9-b4e8-668aacdc0bd1"}},"connectionId":14,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:27:34.001-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn14","msg":"client metadata","attr":{"remote":"127.0.0.1:57713","client":"conn14","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:27:34.003-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:57714","uuid":{"uuid":{"$uuid":"82b7bcb3-ee65-431f-9935-9f46df775aef"}},"connectionId":15,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T19:27:34.004-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn15","msg":"client metadata","attr":{"remote":"127.0.0.1:57714","client":"conn15","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:27:34.004-07:00"},"s":"I",  "c":"ACCESS",   "id":20251,   "ctx":"conn15","msg":"Supported SASL mechanisms requested for unknown user","attr":{"user":{"user":"admin","db":"admin"}}}
+
+{"t":{"$date":"2026-11-16T19:27:34.004-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn15","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:27:34.004-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn15","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:57714","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","error":"UserNotFound: Could not find user \"admin\" for db \"admin\"","result":11,"metrics":{"conversation_duration":{"micros":100,"summary":{"0":{"step":1,"step_total":2,"duration_micros":84}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:27:34.005-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn15","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:27:34.005-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn15","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:57714","isSpeculative":false,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","error":"UserNotFound: Could not find user \"admin\" for db \"admin\"","result":11,"metrics":{"conversation_duration":{"micros":151,"summary":{"0":{"step":1,"step_total":2,"duration_micros":135}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:27:34.006-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn15","msg":"Connection ended","attr":{"remote":"127.0.0.1:57714","uuid":{"uuid":{"$uuid":"82b7bcb3-ee65-431f-9935-9f46df775aef"}},"connectionId":15,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:27:34.007-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn14","msg":"Connection ended","attr":{"remote":"127.0.0.1:57713","uuid":{"uuid":{"$uuid":"d5ef849c-ee74-47d9-b4e8-668aacdc0bd1"}},"connectionId":14,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:27:56.100-07:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn11","msg":"createCollection","attr":{"namespace":"admin.system.users","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"efe58f54-e43a-439a-a6cf-6c976a82d396"}},"options":{}}}
+
+{"t":{"$date":"2026-11-16T19:27:56.117-07:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn11","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"efe58f54-e43a-439a-a6cf-6c976a82d396"}},"namespace":"admin.system.users","index":"_id_","ident":"index-1-6193173461252969613","collectionIdent":"collection-0-6193173461252969613","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-16T19:27:56.117-07:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn11","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"efe58f54-e43a-439a-a6cf-6c976a82d396"}},"namespace":"admin.system.users","index":"user_1_db_1","ident":"index-2-6193173461252969613","collectionIdent":"collection-0-6193173461252969613","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-16T19:27:59.296-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882479,"ts_usec":295914,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 23, snapshot max: 23 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:28:00.273-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:49478","uuid":{"uuid":{"$uuid":"7d62fff8-053d-4eee-b80b-7b4ea444752f"}},"connectionId":16,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:28:00.273-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn16","msg":"client metadata","attr":{"remote":"127.0.0.1:49478","client":"conn16","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:00.275-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:49479","uuid":{"uuid":{"$uuid":"371f2634-aa61-4a85-a807-bd55efb28f37"}},"connectionId":17,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T19:28:00.275-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn17","msg":"client metadata","attr":{"remote":"127.0.0.1:49479","client":"conn17","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:00.288-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn17","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:28:00.299-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn17","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:49479","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":11158,"summary":{"0":{"step":1,"step_total":2,"duration_micros":1818},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:00.301-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn13","msg":"Connection ended","attr":{"remote":"127.0.0.1:54784","uuid":{"uuid":{"$uuid":"ae11a56d-b9b6-460a-9bc5-c4002691ddbc"}},"connectionId":13,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:28:00.301-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn12","msg":"Connection ended","attr":{"remote":"127.0.0.1:53910","uuid":{"uuid":{"$uuid":"7b7d08a4-e4bb-495d-8914-977b0064a11c"}},"connectionId":12,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:28:00.302-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn10","msg":"Connection ended","attr":{"remote":"127.0.0.1:53908","uuid":{"uuid":{"$uuid":"f73b73c0-3520-499d-8381-df181d93c671"}},"connectionId":10,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:28:00.303-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn11","msg":"Connection ended","attr":{"remote":"127.0.0.1:53909","uuid":{"uuid":{"$uuid":"6e6dd67d-57bb-44fd-a7c7-2c32a5d14c05"}},"connectionId":11,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:28:00.345-07:00"},"s":"W",  "c":"NETWORK",  "id":4615610, "ctx":"conn9","msg":"Failed to check socket connectivity","attr":{"error":{"code":6,"codeName":"HostUnreachable","errmsg":"peekASIOStream :: caused by :: Connection closed by peer"}}}
+
+{"t":{"$date":"2026-11-16T19:28:00.345-07:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn9","msg":"Interrupted operation as its client disconnected","attr":{"opId":28684}}
+
+{"t":{"$date":"2026-11-16T19:28:00.346-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn9","msg":"Connection ended","attr":{"remote":"127.0.0.1:53907","uuid":{"uuid":{"$uuid":"2310e4e8-1da1-4f3b-8fad-ba62f6ea9088"}},"connectionId":9,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:28:10.776-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53728","uuid":{"uuid":{"$uuid":"c5bd7f25-8d47-4f7a-b692-6aea9457d160"}},"connectionId":18,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:28:10.777-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn18","msg":"client metadata","attr":{"remote":"127.0.0.1:53728","client":"conn18","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:11.046-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn17","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":10746}}
+
+{"t":{"$date":"2026-11-16T19:28:11.047-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:53729","uuid":{"uuid":{"$uuid":"37be3949-4f9c-4f7a-8b3a-e61971a6718e"}},"connectionId":19,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:28:11.048-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn19","msg":"client metadata","attr":{"remote":"127.0.0.1:53729","client":"conn19","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:11.048-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn19","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:28:11.048-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn19","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:53729","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":823,"summary":{"0":{"step":1,"step_total":2,"duration_micros":74},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:11.049-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn19","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":0}}
+
+{"t":{"$date":"2026-11-16T19:28:23.268-07:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn17","msg":"createCollection","attr":{"namespace":"comercial.clientes","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"0bee13eb-ac42-4e5c-bfc4-a7aa1dbe7222"}},"options":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:23.276-07:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn17","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"0bee13eb-ac42-4e5c-bfc4-a7aa1dbe7222"}},"namespace":"comercial.clientes","index":"_id_","ident":"index-4-6193173461252969613","collectionIdent":"collection-3-6193173461252969613","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-16T19:28:33.768-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn18","msg":"Connection ended","attr":{"remote":"127.0.0.1:53728","uuid":{"uuid":{"$uuid":"c5bd7f25-8d47-4f7a-b692-6aea9457d160"}},"connectionId":18,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:28:33.768-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn17","msg":"Connection ended","attr":{"remote":"127.0.0.1:49479","uuid":{"uuid":{"$uuid":"371f2634-aa61-4a85-a807-bd55efb28f37"}},"connectionId":17,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:28:33.768-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn19","msg":"Connection ended","attr":{"remote":"127.0.0.1:53729","uuid":{"uuid":{"$uuid":"37be3949-4f9c-4f7a-8b3a-e61971a6718e"}},"connectionId":19,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:28:33.780-07:00"},"s":"W",  "c":"NETWORK",  "id":4615610, "ctx":"conn16","msg":"Failed to check socket connectivity","attr":{"error":{"code":6,"codeName":"HostUnreachable","errmsg":"peekASIOStream :: caused by :: Connection closed by peer"}}}
+
+{"t":{"$date":"2026-11-16T19:28:33.780-07:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn16","msg":"Interrupted operation as its client disconnected","attr":{"opId":40964}}
+
+{"t":{"$date":"2026-11-16T19:28:33.780-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn16","msg":"Connection ended","attr":{"remote":"127.0.0.1:49478","uuid":{"uuid":{"$uuid":"7d62fff8-053d-4eee-b80b-7b4ea444752f"}},"connectionId":16,"connectionCount":0}}
+
+{"t":{"$date":"2026-11-16T19:28:38.728-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:65444","uuid":{"uuid":{"$uuid":"a51f9bba-d788-4ba4-9574-e67878372c7d"}},"connectionId":20,"connectionCount":1}}
+
+{"t":{"$date":"2026-11-16T19:28:38.731-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn20","msg":"client metadata","attr":{"remote":"127.0.0.1:65444","client":"conn20","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.735-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:65445","uuid":{"uuid":{"$uuid":"f0973b78-082e-47ab-b79b-b243a70df2f6"}},"connectionId":21,"connectionCount":2}}
+
+{"t":{"$date":"2026-11-16T19:28:38.736-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn21","msg":"client metadata","attr":{"remote":"127.0.0.1:65445","client":"conn21","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.736-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn21","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:28:38.744-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn21","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:65445","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":8398,"summary":{"0":{"step":1,"step_total":2,"duration_micros":70},"1":{"step":2,"step_total":2,"duration_micros":17}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.753-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn21","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":8}}
+
+{"t":{"$date":"2026-11-16T19:28:38.754-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:65446","uuid":{"uuid":{"$uuid":"6005ae98-6ae5-47b4-9840-409bb481fa77"}},"connectionId":22,"connectionCount":3}}
+
+{"t":{"$date":"2026-11-16T19:28:38.754-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:65447","uuid":{"uuid":{"$uuid":"51d26f8a-dd78-464a-8223-f909b20a3846"}},"connectionId":23,"connectionCount":4}}
+
+{"t":{"$date":"2026-11-16T19:28:38.758-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn22","msg":"client metadata","attr":{"remote":"127.0.0.1:65446","client":"conn22","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.758-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn22","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:28:38.758-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn23","msg":"client metadata","attr":{"remote":"127.0.0.1:65447","client":"conn23","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.758-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn23","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:28:38.759-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn22","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:65446","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":1294,"summary":{"0":{"step":1,"step_total":2,"duration_micros":88},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.760-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn23","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:65447","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"admin","db":"admin","result":0,"metrics":{"conversation_duration":{"micros":1672,"summary":{"0":{"step":1,"step_total":2,"duration_micros":78},"1":{"step":2,"step_total":2,"duration_micros":7}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:28:38.761-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn23","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":1}}
+
+{"t":{"$date":"2026-11-16T19:28:49.250-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:65452","uuid":{"uuid":{"$uuid":"7f1b295d-95fb-4902-8823-b9361978836a"}},"connectionId":24,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T19:28:49.250-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn24","msg":"client metadata","attr":{"remote":"127.0.0.1:65452","client":"conn24","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:28:59.321-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882539,"ts_usec":320695,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:29:59.345-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882599,"ts_usec":345437,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 36, snapshot max: 36 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.173-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64061","uuid":{"uuid":{"$uuid":"40af4010-56d5-457a-8f41-eae7eff2946c"}},"connectionId":25,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T19:30:26.178-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn25","msg":"client metadata","attr":{"remote":"127.0.0.1:64061","client":"conn25","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.182-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64062","uuid":{"uuid":{"$uuid":"636336ff-762b-40d5-8615-9d67cd2b29e5"}},"connectionId":26,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T19:30:26.183-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn26","msg":"client metadata","attr":{"remote":"127.0.0.1:64062","client":"conn26","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.184-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn26","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:30:26.193-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn26","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:64062","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":8450,"summary":{"0":{"step":1,"step_total":2,"duration_micros":75},"1":{"step":2,"step_total":2,"duration_micros":14}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.201-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn26","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":8}}
+
+{"t":{"$date":"2026-11-16T19:30:26.202-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64063","uuid":{"uuid":{"$uuid":"6ec09181-175a-41a3-9560-1362f4af3481"}},"connectionId":27,"connectionCount":8}}
+
+{"t":{"$date":"2026-11-16T19:30:26.202-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64064","uuid":{"uuid":{"$uuid":"89d72e41-3ea3-48c1-890b-92db535b3c53"}},"connectionId":28,"connectionCount":9}}
+
+{"t":{"$date":"2026-11-16T19:30:26.203-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn26","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { aggregate: \"atlascli\", pipeline: [ { $match: { managedClusterType: \"atlasCliLocalDevCluster\" } }, { $group: { _id: 1, n: { $sum: 1 } } } ], cursor: {}, lsid: { id: UUID(\"3b18ef24-7e23-4019-bcbf-a730f3a3a90b\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.204-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn26","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: \"foo\", lsid: { id: UUID(\"4cb552eb-cf1c-49d3-9dc0-892d364fe944\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.205-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn27","msg":"client metadata","attr":{"remote":"127.0.0.1:64063","client":"conn27","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.205-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn27","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:30:26.205-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn28","msg":"client metadata","attr":{"remote":"127.0.0.1:64064","client":"conn28","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.205-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn28","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T19:30:26.206-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn27","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:64063","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":961,"summary":{"0":{"step":1,"step_total":2,"duration_micros":88},"1":{"step":2,"step_total":2,"duration_micros":11}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.206-07:00"},"s":"I",  "c":"ACCESS",   "id":5286306, "ctx":"conn28","msg":"Successfully authenticated","attr":{"client":"127.0.0.1:64064","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","result":0,"metrics":{"conversation_duration":{"micros":1281,"summary":{"0":{"step":1,"step_total":2,"duration_micros":64},"1":{"step":2,"step_total":2,"duration_micros":7}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.207-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn28","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getParameter: 1, featureCompatibilityVersion: 1, lsid: { id: UUID(\"3b18ef24-7e23-4019-bcbf-a730f3a3a90b\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:30:26.213-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn28","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":6}}
+
+{"t":{"$date":"2026-11-16T19:30:26.296-07:00"},"s":"I",  "c":"ACCESS",   "id":20436,   "ctx":"conn28","msg":"Checking authorization failed","attr":{"error":{"code":13,"codeName":"Unauthorized","errmsg":"not authorized on admin to execute command { getLog: \"startupWarnings\", lsid: { id: UUID(\"3b18ef24-7e23-4019-bcbf-a730f3a3a90b\") }, $db: \"admin\" }"}}}
+
+{"t":{"$date":"2026-11-16T19:30:36.701-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64070","uuid":{"uuid":{"$uuid":"f4431621-a592-42aa-ae03-f03110cfc66c"}},"connectionId":29,"connectionCount":10}}
+
+{"t":{"$date":"2026-11-16T19:30:36.701-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn29","msg":"client metadata","attr":{"remote":"127.0.0.1:64070","client":"conn29","negotiatedCompressors":[],"doc":{"application":{"name":"app-ventas-web"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T19:30:52.108-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn22","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":133270}}
+
+{"t":{"$date":"2026-11-16T19:30:59.363-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882659,"ts_usec":362536,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 41, snapshot max: 41 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:31:59.386-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882719,"ts_usec":385780,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 43, snapshot max: 43 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:32:59.402-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882779,"ts_usec":402305,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 44, snapshot max: 44 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:33:59.420-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882839,"ts_usec":420009,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 45, snapshot max: 45 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:34:59.434-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882899,"ts_usec":434591,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 46, snapshot max: 46 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:35:59.453-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794882959,"ts_usec":453060,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 50, snapshot max: 50 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:36:59.476-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883019,"ts_usec":475374,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 52, snapshot max: 52 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:37:59.492-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883079,"ts_usec":492145,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 53, snapshot max: 53 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:38:59.508-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883139,"ts_usec":508226,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 54, snapshot max: 54 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:39:59.525-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883199,"ts_usec":525329,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 55, snapshot max: 55 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:40:59.540-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883259,"ts_usec":540816,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 56, snapshot max: 56 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:41:59.557-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883319,"ts_usec":557592,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 57, snapshot max: 57 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:42:59.575-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883379,"ts_usec":574949,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 58, snapshot max: 58 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:43:59.594-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883439,"ts_usec":594104,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 59, snapshot max: 59 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:44:59.613-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883499,"ts_usec":613115,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 60, snapshot max: 60 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:45:59.632-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883559,"ts_usec":632109,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 61, snapshot max: 61 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:46:49.599-07:00"},"s":"I",  "c":"NETWORK",  "id":6788700, "ctx":"conn27","msg":"Received first command on ingress connection since session start or auth handshake","attr":{"elapsedMillis":983302}}
+
+{"t":{"$date":"2026-11-16T19:46:59.652-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883619,"ts_usec":651807,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 63, snapshot max: 63 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:47:59.667-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883679,"ts_usec":667440,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 64, snapshot max: 64 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:48:59.686-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883739,"ts_usec":686191,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 65, snapshot max: 65 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:49:59.701-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883799,"ts_usec":701514,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 66, snapshot max: 66 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:50:59.723-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883859,"ts_usec":722736,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 69, snapshot max: 69 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:51:59.740-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883919,"ts_usec":739698,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 70, snapshot max: 70 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:52:59.757-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794883979,"ts_usec":757279,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 71, snapshot max: 71 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:53:59.775-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884039,"ts_usec":775310,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 72, snapshot max: 72 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:54:59.798-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884099,"ts_usec":798075,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 73, snapshot max: 73 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:55:59.816-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884159,"ts_usec":816209,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 74, snapshot max: 74 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:56:59.833-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884219,"ts_usec":833413,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 75, snapshot max: 75 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:57:59.849-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884279,"ts_usec":849414,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 76, snapshot max: 76 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:58:44.831-07:00"},"s":"I",  "c":"-",        "id":20701,   "ctx":"conn22","msg":"Creating profile collection","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-16T19:58:44.831-07:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn22","msg":"createCollection","attr":{"namespace":"comercial.system.profile","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"1b030135-b149-4ddd-bcb0-369cea009183"}},"options":{"capped":true,"size":1048576}}}
+
+{"t":{"$date":"2026-11-16T19:58:44.835-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":0,"slowms":100,"sampleRate":1},"to":{"level":2,"slowms":100,"sampleRate":1},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T19:58:59.868-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884339,"ts_usec":867882,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 81, snapshot max: 81 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T19:59:59.885-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884399,"ts_usec":885136,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 83, snapshot max: 83 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:00:59.902-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884459,"ts_usec":902486,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 86, snapshot max: 86 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:01:59.922-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884519,"ts_usec":921784,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 94, snapshot max: 94 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:02:59.942-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884579,"ts_usec":941393,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 96, snapshot max: 96 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:03:59.959-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884639,"ts_usec":959179,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 97, snapshot max: 97 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:04:59.977-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884699,"ts_usec":977229,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 98, snapshot max: 98 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:05:59.996-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884759,"ts_usec":995523,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 102, snapshot max: 102 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:07:00.015-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884820,"ts_usec":15604,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 104, snapshot max: 104 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:08:00.032-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884880,"ts_usec":32418,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 105, snapshot max: 105 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:09:00.049-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794884940,"ts_usec":49201,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 107, snapshot max: 107 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:10:00.065-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885000,"ts_usec":65357,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 109, snapshot max: 109 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:11:00.086-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885060,"ts_usec":86226,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 111, snapshot max: 111 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:12:00.104-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885120,"ts_usec":104454,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 112, snapshot max: 112 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:13:00.124-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885180,"ts_usec":124743,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 113, snapshot max: 113 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:13:20.026-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":2,"slowms":100,"sampleRate":1},"to":{"level":0,"slowms":100,"sampleRate":1},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T20:13:20.030-07:00"},"s":"I",  "c":"COMMAND",  "id":518070,  "ctx":"conn22","msg":"CMD: drop","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-16T20:13:20.030-07:00"},"s":"I",  "c":"STORAGE",  "id":20318,   "ctx":"conn22","msg":"Finishing collection drop","attr":{"namespace":"comercial.system.profile","uuid":{"uuid":{"$uuid":"1b030135-b149-4ddd-bcb0-369cea009183"}}}}
+
+{"t":{"$date":"2026-11-16T20:13:20.030-07:00"},"s":"I",  "c":"STORAGE",  "id":22214,   "ctx":"conn22","msg":"Deferring table drop for collection","attr":{"namespace":"comercial.system.profile","ident":"collection-5-6193173461252969613","dropTime":{"checkpointIteration":"53"}}}
+
+{"t":{"$date":"2026-11-16T20:13:20.032-07:00"},"s":"I",  "c":"-",        "id":20701,   "ctx":"conn22","msg":"Creating profile collection","attr":{"namespace":"comercial.system.profile"}}
+
+{"t":{"$date":"2026-11-16T20:13:20.032-07:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn22","msg":"createCollection","attr":{"namespace":"comercial.system.profile","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"c19b67b5-2f23-4607-afaf-497fd73df2b7"}},"options":{"capped":true,"size":1048576}}}
+
+{"t":{"$date":"2026-11-16T20:13:20.036-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":0,"slowms":100,"sampleRate":1},"to":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T20:13:40.168-07:00"},"s":"I",  "c":"WRITE",    "id":51803,   "ctx":"conn27","msg":"Slow query","attr":{"type":"update","isFromUserConnection":true,"ns":"comercial.clientes","collectionType":"normal","appName":"app-ventas-web","command":{"q":{"_id":1},"u":{"$set":{"telefono":"6670000000"}},"multi":false,"upsert":false},"planSummary":"EXPRESS_IXSCAN { _id: 1 },EXPRESS_UPDATE","planningTimeMicros":42,"keysExamined":1,"docsExamined":1,"nMatched":1,"nModified":1,"nUpserted":0,"keysInserted":0,"keysDeleted":0,"numYields":0,"locks":{"ReplicationStateTransition":{"acquireCount":{"w":1}},"Global":{"acquireCount":{"w":1}},"Database":{"acquireCount":{"w":1}},"Collection":{"acquireCount":{"w":1}}},"flowControl":{"acquireCount":1},"storage":{"data":{"txnBytesDirty":96}},"remote":"127.0.0.1:64063","queues":{"ingress":{"admissions":1},"execution":{"admissions":2}},"workingMillis":0,"durationMillis":0}}
+
+{"t":{"$date":"2026-11-16T20:14:00.143-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885240,"ts_usec":142861,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 121, snapshot max: 121 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:14:00.571-07:00"},"s":"I",  "c":"STORAGE",  "id":22260,   "ctx":"TimestampMonitor","msg":"Removing drop-pending idents with drop timestamps before timestamp","attr":{"timestamp":{"$timestamp":{"t":0,"i":0}}}}
+
+{"t":{"$date":"2026-11-16T20:14:00.572-07:00"},"s":"I",  "c":"STORAGE",  "id":22237,   "ctx":"TimestampMonitor","msg":"Completing drop for ident","attr":{"ident":"collection-5-6193173461252969613","dropTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+
+{"t":{"$date":"2026-11-16T20:14:00.573-07:00"},"s":"I",  "c":"STORAGE",  "id":6776600, "ctx":"TimestampMonitor","msg":"The ident was successfully dropped","attr":{"ident":"collection-5-6193173461252969613","dropTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+
+{"t":{"$date":"2026-11-16T20:15:00.162-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885300,"ts_usec":161740,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 126, snapshot max: 126 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:16:00.180-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885360,"ts_usec":179330,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 130, snapshot max: 130 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:17:00.198-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885420,"ts_usec":198269,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 131, snapshot max: 131 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:18:00.214-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885480,"ts_usec":214629,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 132, snapshot max: 132 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:19:00.230-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885540,"ts_usec":230640,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 133, snapshot max: 133 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:20:00.249-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885600,"ts_usec":249091,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 134, snapshot max: 134 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:21:00.266-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885660,"ts_usec":265718,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 136, snapshot max: 136 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:21:05.504-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn29","msg":"Connection ended","attr":{"remote":"127.0.0.1:64070","uuid":{"uuid":{"$uuid":"f4431621-a592-42aa-ae03-f03110cfc66c"}},"connectionId":29,"connectionCount":9}}
+
+{"t":{"$date":"2026-11-16T20:21:05.504-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn27","msg":"Connection ended","attr":{"remote":"127.0.0.1:64063","uuid":{"uuid":{"$uuid":"6ec09181-175a-41a3-9560-1362f4af3481"}},"connectionId":27,"connectionCount":8}}
+
+{"t":{"$date":"2026-11-16T20:21:05.504-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn28","msg":"Connection ended","attr":{"remote":"127.0.0.1:64064","uuid":{"uuid":{"$uuid":"89d72e41-3ea3-48c1-890b-92db535b3c53"}},"connectionId":28,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T20:21:05.504-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn26","msg":"Connection ended","attr":{"remote":"127.0.0.1:64062","uuid":{"uuid":{"$uuid":"636336ff-762b-40d5-8615-9d67cd2b29e5"}},"connectionId":26,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T20:21:05.902-07:00"},"s":"W",  "c":"NETWORK",  "id":4615610, "ctx":"conn25","msg":"Failed to check socket connectivity","attr":{"error":{"code":6,"codeName":"HostUnreachable","errmsg":"peekASIOStream :: caused by :: Connection closed by peer"}}}
+
+{"t":{"$date":"2026-11-16T20:21:05.902-07:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn25","msg":"Interrupted operation as its client disconnected","attr":{"opId":54576}}
+
+{"t":{"$date":"2026-11-16T20:21:05.903-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn25","msg":"Connection ended","attr":{"remote":"127.0.0.1:64061","uuid":{"uuid":{"$uuid":"40af4010-56d5-457a-8f41-eae7eff2946c"}},"connectionId":25,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T20:21:41.165-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64318","uuid":{"uuid":{"$uuid":"4fd00111-87d9-4102-814f-61fd47ecbeee"}},"connectionId":30,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T20:21:41.170-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn30","msg":"client metadata","attr":{"remote":"127.0.0.1:64318","client":"conn30","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T20:21:41.174-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64319","uuid":{"uuid":{"$uuid":"e06e9f94-8b8c-471a-a988-116437665ab1"}},"connectionId":31,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T20:21:41.175-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn31","msg":"client metadata","attr":{"remote":"127.0.0.1:64319","client":"conn31","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T20:21:41.175-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn31","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T20:21:41.184-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn31","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:64319","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"app_ventas","db":"comercial","error":"AuthenticationFailed: SCRAM authentication failed, storedKey mismatch","result":18,"metrics":{"conversation_duration":{"micros":8308,"summary":{"0":{"step":1,"step_total":2,"duration_micros":91},"1":{"step":2,"step_total":2,"duration_micros":21}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T20:21:41.185-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn31","msg":"Connection ended","attr":{"remote":"127.0.0.1:64319","uuid":{"uuid":{"$uuid":"e06e9f94-8b8c-471a-a988-116437665ab1"}},"connectionId":31,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T20:21:41.185-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn30","msg":"Connection ended","attr":{"remote":"127.0.0.1:64318","uuid":{"uuid":{"$uuid":"4fd00111-87d9-4102-814f-61fd47ecbeee"}},"connectionId":30,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T20:21:45.274-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64324","uuid":{"uuid":{"$uuid":"250f0094-1781-46e1-9a8f-03f27ff3c802"}},"connectionId":32,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T20:21:45.279-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn32","msg":"client metadata","attr":{"remote":"127.0.0.1:64324","client":"conn32","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T20:21:45.282-07:00"},"s":"I",  "c":"NETWORK",  "id":22943,   "ctx":"listener","msg":"Connection accepted","attr":{"remote":"127.0.0.1:64325","uuid":{"uuid":{"$uuid":"349592db-a947-4c44-9424-5059c23bf06d"}},"connectionId":33,"connectionCount":7}}
+
+{"t":{"$date":"2026-11-16T20:21:45.284-07:00"},"s":"I",  "c":"NETWORK",  "id":51800,   "ctx":"conn33","msg":"client metadata","attr":{"remote":"127.0.0.1:64325","client":"conn33","negotiatedCompressors":[],"doc":{"application":{"name":"mongosh 2.8.3"},"driver":{"name":"nodejs|mongosh","version":"7.1.0|2.8.3"},"platform":"Node.js v24.15.0, LE","os":{"name":"win32","architecture":"x64","version":"10.0.20348","type":"Windows_NT"}}}}
+
+{"t":{"$date":"2026-11-16T20:21:45.284-07:00"},"s":"I",  "c":"ACCESS",   "id":20251,   "ctx":"conn33","msg":"Supported SASL mechanisms requested for unknown user","attr":{"user":{"user":"usuario_inexistente","db":"comercial"}}}
+
+{"t":{"$date":"2026-11-16T20:21:45.284-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn33","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T20:21:45.284-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn33","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:64325","isSpeculative":true,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"usuario_inexistente","db":"comercial","error":"UserNotFound: Could not find user \"usuario_inexistente\" for db \"comercial\"","result":11,"metrics":{"conversation_duration":{"micros":210,"summary":{"0":{"step":1,"step_total":2,"duration_micros":154}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T20:21:45.285-07:00"},"s":"I",  "c":"ACCESS",   "id":6788604, "ctx":"conn33","msg":"Auth metrics report","attr":{"metric":"acquireUser","micros":0}}
+
+{"t":{"$date":"2026-11-16T20:21:45.285-07:00"},"s":"I",  "c":"ACCESS",   "id":5286307, "ctx":"conn33","msg":"Failed to authenticate","attr":{"client":"127.0.0.1:64325","isSpeculative":false,"isClusterMember":false,"mechanism":"SCRAM-SHA-256","user":"usuario_inexistente","db":"comercial","error":"UserNotFound: Could not find user \"usuario_inexistente\" for db \"comercial\"","result":11,"metrics":{"conversation_duration":{"micros":210,"summary":{"0":{"step":1,"step_total":2,"duration_micros":198}}}},"extraInfo":{}}}
+
+{"t":{"$date":"2026-11-16T20:21:45.286-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn33","msg":"Connection ended","attr":{"remote":"127.0.0.1:64325","uuid":{"uuid":{"$uuid":"349592db-a947-4c44-9424-5059c23bf06d"}},"connectionId":33,"connectionCount":6}}
+
+{"t":{"$date":"2026-11-16T20:21:45.287-07:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn32","msg":"Connection ended","attr":{"remote":"127.0.0.1:64324","uuid":{"uuid":{"$uuid":"250f0094-1781-46e1-9a8f-03f27ff3c802"}},"connectionId":32,"connectionCount":5}}
+
+{"t":{"$date":"2026-11-16T20:22:00.285-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885720,"ts_usec":284854,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 137, snapshot max: 137 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:23:00.305-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885780,"ts_usec":305570,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 138, snapshot max: 138 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:24:00.325-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885840,"ts_usec":325139,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 139, snapshot max: 139 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:25:00.341-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885900,"ts_usec":341209,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 140, snapshot max: 140 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:26:00.358-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794885960,"ts_usec":358192,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 142, snapshot max: 142 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:27:00.378-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886020,"ts_usec":377911,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 143, snapshot max: 143 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:28:00.393-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886080,"ts_usec":393780,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 144, snapshot max: 144 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:29:00.413-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886140,"ts_usec":412864,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 145, snapshot max: 145 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:30:00.434-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886200,"ts_usec":434305,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 146, snapshot max: 146 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:31:00.452-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886260,"ts_usec":452096,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 147, snapshot max: 147 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:32:00.468-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886320,"ts_usec":468014,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 148, snapshot max: 148 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:33:00.484-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886380,"ts_usec":484327,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 149, snapshot max: 149 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:34:00.505-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886440,"ts_usec":504755,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 150, snapshot max: 150 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:35:00.527-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886500,"ts_usec":526886,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 152, snapshot max: 152 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:36:00.544-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886560,"ts_usec":544360,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 153, snapshot max: 153 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:37:00.561-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886620,"ts_usec":560898,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 154, snapshot max: 154 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:38:00.579-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886680,"ts_usec":579440,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 155, snapshot max: 155 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:38:43.216-07:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"conn22","msg":"createCollection","attr":{"namespace":"auditoria.instantaneas_privilegios","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"68831455-2cf1-4ab0-ad87-ea682de70640"}},"options":{}}}
+
+{"t":{"$date":"2026-11-16T20:38:43.226-07:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"conn22","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"68831455-2cf1-4ab0-ad87-ea682de70640"}},"namespace":"auditoria.instantaneas_privilegios","index":"_id_","ident":"index-8-6193173461252969613","collectionIdent":"collection-7-6193173461252969613","commitTimestamp":null}}
+
+{"t":{"$date":"2026-11-16T20:38:47.391-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"to":{"level":2,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T20:39:00.598-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886740,"ts_usec":597504,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 166, snapshot max: 166 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:39:23.854-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":2,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"to":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T20:40:00.620-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886800,"ts_usec":619833,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 171, snapshot max: 171 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:41:00.641-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886860,"ts_usec":640836,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 174, snapshot max: 174 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:42:00.662-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886920,"ts_usec":662020,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 177, snapshot max: 177 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:42:49.657-07:00"},"s":"I",  "c":"COMMAND",  "id":48742,   "ctx":"conn22","msg":"Profiler settings changed","attr":{"from":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"to":{"level":1,"slowms":100,"sampleRate":1,"filter":{"op":{"$in":["insert","remove","update"]}}},"db":"comercial"}}
+
+{"t":{"$date":"2026-11-16T20:43:00.681-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794886980,"ts_usec":681381,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 180, snapshot max: 180 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:44:00.700-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887040,"ts_usec":700042,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 181, snapshot max: 181 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:45:00.718-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887100,"ts_usec":718822,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 185, snapshot max: 185 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:46:00.738-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887160,"ts_usec":738686,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 186, snapshot max: 186 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:47:00.757-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887220,"ts_usec":756889,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 187, snapshot max: 187 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:48:00.774-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887280,"ts_usec":773857,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 188, snapshot max: 188 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
+
+{"t":{"$date":"2026-11-16T20:49:00.791-07:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1794887340,"ts_usec":791167,"thread":"11396:140715662804512","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","category_id":7,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"saving checkpoint snapshot min: 189, snapshot max: 189 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1353897"}}}
